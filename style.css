@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Catamaran", sans-serif;
+    background-color:#000000;
+    
+}
+
+/*header*/
+
+header {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: crimson;
+    height: 80px;
+}
+
+h1 {
+    display: inline-block;
+    font-family:monospace;
+    text-transform: lowercase;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 27px 10px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.header {
+    float: right;
+    margin: 5px 20px;
+}
+
+.header ul{
+    display: inline-block;
+}
+.header ul li{
+    display: inline-block;    
+    margin-left: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 24px;
+    color: bisque;
+    line-height: 48px;
+}
+
+.header ul li a:hover {
+    color: crimson;
+}
+
+/*main*/
+
+/*Color Section*/
+.colors {
+    margin: 95px auto 30px auto;
+    border: 2px solid darkslategray;
+    border-radius: 1%;
+    width: 80%;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: burlywood;
+}
+
+h2 {
+   display: block;
+   font-size: 24px;
+   font-weight: 700;
+   margin: 10px; 
+}
+
+/*using flexbox*/
+.colors-flex {
+    font-family: 'Merriweather', serif;
+    color: rgb(49, 49, 48);
+    font-size: 18px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 20px auto;
+}
+
+.tomato {
+    background-color: tomato;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    width: 16%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.dodger {
+    background-color: dodgerblue;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    width: 16%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.azure {
+    background-color: azure;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    width: 16%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.maroon {
+    background-color: maroon;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    color: whitesmoke;
+    width: 16%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.slate {
+    background-color: slategray;
+    min-width: 200px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    width: 16%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.teal {
+    background-color: teal;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 16%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    color: whitesmoke;
+}
+
+/*fonts section*/
+
+.fonts {
+    margin: 30px auto;
+    border: 2px solid darkslategray;
+    border-radius: 1%;
+    width: 80%;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: white;
+}
+
+.font-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.crimson {
+    font-family: 'Crimson Text', serif;
+}
+
+.karla {
+    font-family: 'Karla', sans-serif;
+}
+
+.libre {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.robotomono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif
+}
+
+.arial {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    border-left: 1px solid #3f3f3f;
+    margin:10px 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.4em;
+    min-width: 30%;
+}
+
+/*text styles*/
+
+.styles {
+    margin: 30px auto;
+    border: 2px solid darkslategray;
+    border-radius: 1%;
+    width: 80%;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: antiquewhite;
+}
+
+.styles-flex h1 {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: none;
+    color: #3f3f3f;
+}
+
+.styles-flex h2 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.styles-flex p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.styles-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-left: 10px;
+}
